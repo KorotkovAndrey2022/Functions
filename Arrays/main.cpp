@@ -268,17 +268,17 @@ void Sort(double arr[], const int n)
 		}
 	}
 }
-void Sort(float frr[], const int m)
+void Sort(float arr2[], const int b)
 {
-	for (int i = 0; i < m; i++)
+	for (int i = 0; i < b; i++)
 	{
-		for (int j = i + 1; j < m; j++)
+		for (int j = i + 1; j < b; j++)
 		{
-			if (frr[j] < frr[i])
+			if (arr2[j] < arr2[i])
 			{
-				float bufer = frr[i];
-				frr[i] = frr[j];
-				frr[j] = bufer;
+				float bufer = arr2[i];
+				arr2[i] = arr2[j];
+				arr2[j] = bufer;
 			}
 		}
 	}
